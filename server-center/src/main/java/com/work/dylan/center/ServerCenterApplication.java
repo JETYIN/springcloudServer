@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class ServerCenterApplication {//FIXME 作为服务中心，在网关中开启
+public class ServerCenterApplication {//FIXME 作为服务中心，在网关中开启 port:9001
 
 	public static void main(String[] args) {
 		SpringApplication.run(ServerCenterApplication.class, args);
